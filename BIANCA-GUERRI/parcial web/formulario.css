@@ -2,6 +2,12 @@
     font-family: 'maicra';
     src: url(./fonts/minecraft/Minecraft.ttf) format(truetype);
  }
+  .body{
+   background-image:url(https://i.redd.it/getjr3xoyagb1.png) ;
+   background-attachment: fixed;
+   background-size: cover;
+   background-repeat: no-repeat;
+  }
 .fieldset {
 border: solid;
 border-width: 4px;
