@@ -41,19 +41,19 @@ float: right;
 width: 50%; ;
     border-bottom-style: solid;
     border-bottom-width: 30px;
-    border-bottom-color: rgb(107, 83, 62);
+    border-bottom-color: rgb(105, 19, 67);
 
     border-top-style: solid;
     border-top-width: 30px;
-    border-top-color: rgb(82, 189, 79);
+    border-top-color: rgb(105, 19, 67);
 
     border-left-style: solid;
     border-left-width: 30px;
-    border-left-color: rgb(107, 83, 62);
+    border-left-color: rgb(105, 19, 67);
     
     border-right-style: solid;
     border-right-width: 30px;
-    border-right-color: rgb(107, 83, 62);
+    border-right-color: rgb(105, 19, 67);
 }
 .body{
    background-image:url(https://i.redd.it/getjr3xoyagb1.png) ;
