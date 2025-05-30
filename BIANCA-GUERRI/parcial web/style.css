@@ -68,7 +68,7 @@ width: 50%; ;
    background-size: cover;
    background-repeat: no-repeat;
 }
-.cherry-log {
+.about {
     float: right;
     background-color: rgb(228, 152, 209);
     border-bottom-style: solid;
@@ -87,7 +87,7 @@ width: 50%; ;
     border-right-width: 30px;
     border-right-color: rgb(53, 32, 38);
 }
-.about {
+.cherry-log {
     float: right;
     background-color: rgb(228, 152, 209);
     border-bottom-style: solid;
