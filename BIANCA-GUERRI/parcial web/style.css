@@ -1,5 +1,9 @@
 
-.body{
+@font-face {
+    font-family: 'maicra';
+    src: url(./fonts/minecraft/Minecraft.ttf) format(truetype);
+ }
+ .body{
    background-image:url(https://i.redd.it/getjr3xoyagb1.png) ;
    background-attachment: fixed;
    background-size: cover;
@@ -31,7 +35,8 @@
 }
 .poster {
     size-adjust: 50%;
-    width: 50%; ;
+    width: 100%;
+    box-sizing: border-box;
     border-bottom-style: solid;
     border-bottom-width: 30px;
     border-bottom-color: rgb(196, 140, 91);
@@ -68,31 +73,16 @@
     border-right-width: 30px;
     border-right-color: rgb(196, 140, 91);
 }
-.cherry-log {
-     padding-right: 10px;
-    padding-left: 10px;
-    float: right;
-    background-color: rgb(228, 152, 209);
-    border-bottom-style: solid;
-    border-bottom-width: 30px;
-    border-bottom-color: rgb(53, 32, 38);
-
-    border-top-style: solid;
-    border-top-width: 30px;
-    border-top-color: rgb(53, 32, 38);
-
-    border-left-style: solid;
-    border-left-width: 30px;
-    border-left-color: rgb(53, 32, 38);
+.about, .cherry-log, .reparto,.contacto {
+    /* float: left; */
     
-    border-right-style: solid;
-    border-right-width: 30px;
-    border-right-color: rgb(53, 32, 38);
-}
-.about {
-    float: right;
+    font-family: 'maicra';
     padding-right: 10px;
     padding-left: 10px;
+    margin: 15px 0;
+    width: 215px;
+    box-sizing: border-box;
+    height: 215px;
     background-color: rgb(228, 152, 209);
     border-bottom-style: solid;
     border-bottom-width: 30px;
@@ -110,49 +100,15 @@
     border-right-width: 30px;
     border-right-color: rgb(53, 32, 38);
 }
-.reparto {
-   float: right;
-   padding-right: 70px;
-   padding-left: 70px;
-    background-color: rgb(228, 152, 209);
-    border-bottom-style: solid;
-    border-bottom-width: 30px;
-    border-bottom-color: rgb(53, 32, 38);
-
-    border-top-style: solid;
-    border-top-width: 30px;
-    border-top-color: rgb(53, 32, 38);
-
-    border-left-style: solid;
-    border-left-width: 30px;
-    border-left-color: rgb(53, 32, 38);
-    
-    border-right-style: solid;
-    border-right-width: 30px;
-    border-right-color: rgb(53, 32, 38); 
+.RE {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    font-size: 1.5rem;
 }
-.contacto {
-     float: right;
-     padding-right: 70px;
-   padding-left: 70px;
-    background-color: rgb(228, 152, 209);
-    border-bottom-style: solid;
-    border-bottom-width: 30px;
-    border-bottom-color: rgb(53, 32, 38);
 
-    border-top-style: solid;
-    border-top-width: 30px;
-    border-top-color: rgb(53, 32, 38);
-
-    border-left-style: solid;
-    border-left-width: 30px;
-    border-left-color: rgb(53, 32, 38);
-    
-    border-right-style: solid;
-    border-right-width: 30px;
-    border-right-color: rgb(53, 32, 38); 
-}
 .trama {
+    font-family: 'maicra';
     size-adjust: 50%;
 float: right;
 width: 50%; ;
@@ -174,6 +130,7 @@ width: 50%; ;
     border-right-color: rgb(53, 32, 38);
 }
 .cherry-log1 {
+    font-family: 'maicra';
     size-adjust: 60%;
     float: left;
     width: 40%;
@@ -195,7 +152,9 @@ width: 50%; ;
     border-right-color: rgb(53, 32, 38);
 }
 .cherry-log2 {
-    padding-left: 45%;
+    font-family: 'maicra';
+    padding: 5px 20px;
+    width: fit-content;
      background-color: rgb(228, 152, 209);
     border-bottom-style: solid;
     border-bottom-width: 30px;
@@ -214,6 +173,7 @@ width: 50%; ;
     border-right-color: rgb(53, 32, 38);
 }
 .cherry-log3 {
+    font-family: 'maicra';
     float: left;
     background-color: rgb(228, 152, 209);
     border-bottom-style: solid;
@@ -233,6 +193,7 @@ width: 50%; ;
     border-right-color: rgb(53, 32, 38); 
 } 
 .cherry-log4 {
+    font-family: 'maicra';
     float: right;
     background-color: rgb(228, 152, 209);
     border-bottom-style: solid;
@@ -289,3 +250,9 @@ width: 50%; ;
     border-right-width: 30px;
     border-right-color: rgb(53, 32, 38);
 }
+
+ main.mainflex{
+    display: flex;
+    justify-content: space-between;
+ }
+ 
