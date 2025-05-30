@@ -30,6 +30,7 @@
    background-repeat: no-repeat;
 }
 .poster {
+    padding-left: 50%;
     width: 50%; ;
     border-bottom-style: solid;
     border-bottom-width: 30px;
