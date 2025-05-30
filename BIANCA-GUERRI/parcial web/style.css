@@ -86,3 +86,22 @@ width: 50%; ;
     border-right-width: 30px;
     border-right-color: rgb(53, 32, 38);
 }
+.about {
+    float: right;
+    background-color: rgb(228, 152, 209);
+    border-bottom-style: solid;
+    border-bottom-width: 30px;
+    border-bottom-color: rgb(53, 32, 38);
+
+    border-top-style: solid;
+    border-top-width: 30px;
+    border-top-color: rgb(53, 32, 38);
+
+    border-left-style: solid;
+    border-left-width: 30px;
+    border-left-color: rgb(53, 32, 38);
+    
+    border-right-style: solid;
+    border-right-width: 30px;
+    border-right-color: rgb(53, 32, 38);
+}
