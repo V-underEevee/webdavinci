@@ -170,6 +170,9 @@ width: 50%; ;
     border-right-color: rgb(53, 32, 38);
 }
 .cherry-log1 {
+    size-adjust: 70%;
+    float: right;
+    width: 70%; ;
      background-color: rgb(228, 152, 209);
     border-bottom-style: solid;
     border-bottom-width: 30px;
