@@ -69,6 +69,7 @@ width: 50%; ;
    background-repeat: no-repeat;
 }
 .cherry-log {
+    padding-left: 80px;
     background-color: rgb(228, 152, 209);
     border-bottom-style: solid;
     border-bottom-width: 30px;
