@@ -67,6 +67,8 @@
     border-right-color: rgb(196, 140, 91);
 }
 .cherry-log {
+     padding-right: 10px;
+    padding-left: 10px;
     float: right;
     background-color: rgb(228, 152, 209);
     border-bottom-style: solid;
@@ -129,8 +131,8 @@ width: 50%; ;
 }
 .reparto {
    float: right;
-   padding-right: 20px;
-   padding-left: 20px;
+   padding-right: 40px;
+   padding-left: 40px;
     background-color: rgb(228, 152, 209);
     border-bottom-style: solid;
     border-bottom-width: 30px;
