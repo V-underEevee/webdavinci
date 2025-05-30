@@ -1,3 +1,34 @@
+
+.body{
+   background-image:url(https://i.redd.it/getjr3xoyagb1.png) ;
+   background-attachment: fixed;
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+.body1{
+   background-image:url(https://i.redd.it/getjr3xoyagb1.png) ;
+   background-attachment: fixed;
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+.body2 {
+    background-image:url(https://i.redd.it/getjr3xoyagb1.png) ;
+   background-attachment: fixed;
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+.body3 {
+    background-image:url(https://i.redd.it/getjr3xoyagb1.png) ;
+   background-attachment: fixed;
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+.body4 {
+    background-image:url(https://i.redd.it/getjr3xoyagb1.png) ;
+   background-attachment: fixed;
+   background-size: cover;
+   background-repeat: no-repeat;
+}
 .poster {
     width: 50%; ;
     border-bottom-style: solid;
@@ -35,6 +66,25 @@
     border-right-width: 30px;
     border-right-color: rgb(196, 140, 91);
 }
+.cherry-log {
+    float: right;
+    background-color: rgb(228, 152, 209);
+    border-bottom-style: solid;
+    border-bottom-width: 30px;
+    border-bottom-color: rgb(53, 32, 38);
+
+    border-top-style: solid;
+    border-top-width: 30px;
+    border-top-color: rgb(53, 32, 38);
+
+    border-left-style: solid;
+    border-left-width: 30px;
+    border-left-color: rgb(53, 32, 38);
+    
+    border-right-style: solid;
+    border-right-width: 30px;
+    border-right-color: rgb(53, 32, 38);
+}
 .trama {
     size-adjust: 50%;
 float: right;
@@ -56,18 +106,6 @@ width: 50%; ;
     border-right-width: 30px;
     border-right-color: rgb(53, 32, 38);
 }
-.body{
-   background-image:url(https://i.redd.it/getjr3xoyagb1.png) ;
-   background-attachment: fixed;
-   background-size: cover;
-   background-repeat: no-repeat;
-}
-.body1{
-   background-image:url(https://i.redd.it/getjr3xoyagb1.png) ;
-   background-attachment: fixed;
-   background-size: cover;
-   background-repeat: no-repeat;
-}
 .about {
     float: right;
     background-color: rgb(228, 152, 209);
@@ -87,7 +125,64 @@ width: 50%; ;
     border-right-width: 30px;
     border-right-color: rgb(53, 32, 38);
 }
-.cherry-log {
+.reparto {
+   float: left;
+    background-color: rgb(228, 152, 209);
+    border-bottom-style: solid;
+    border-bottom-width: 30px;
+    border-bottom-color: rgb(53, 32, 38);
+
+    border-top-style: solid;
+    border-top-width: 30px;
+    border-top-color: rgb(53, 32, 38);
+
+    border-left-style: solid;
+    border-left-width: 30px;
+    border-left-color: rgb(53, 32, 38);
+    
+    border-right-style: solid;
+    border-right-width: 30px;
+    border-right-color: rgb(53, 32, 38); 
+}
+.contacto {
+     float: left;
+    background-color: rgb(228, 152, 209);
+    border-bottom-style: solid;
+    border-bottom-width: 30px;
+    border-bottom-color: rgb(53, 32, 38);
+
+    border-top-style: solid;
+    border-top-width: 30px;
+    border-top-color: rgb(53, 32, 38);
+
+    border-left-style: solid;
+    border-left-width: 30px;
+    border-left-color: rgb(53, 32, 38);
+    
+    border-right-style: solid;
+    border-right-width: 30px;
+    border-right-color: rgb(53, 32, 38); 
+}
+.lista1 {
+    float: left;
+    background-color: rgb(228, 152, 209);
+    border-bottom-style: solid;
+    border-bottom-width: 30px;
+    border-bottom-color: rgb(53, 32, 38);
+
+    border-top-style: solid;
+    border-top-width: 30px;
+    border-top-color: rgb(53, 32, 38);
+
+    border-left-style: solid;
+    border-left-width: 30px;
+    border-left-color: rgb(53, 32, 38);
+    
+    border-right-style: solid;
+    border-right-width: 30px;
+    border-right-color: rgb(53, 32, 38);
+}
+.lista2 {
     float: right;
     background-color: rgb(228, 152, 209);
     border-bottom-style: solid;
