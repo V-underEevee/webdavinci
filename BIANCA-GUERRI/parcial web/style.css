@@ -260,8 +260,10 @@ width: 50%; ;
     display: flex;
     justify-content: space-between;
  }
- .musica {
+.musica {
     font-family: 'maicra';
     display: flex;
- }
+}
+    
+ 
  
