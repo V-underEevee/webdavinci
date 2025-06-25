@@ -4,6 +4,9 @@
  }
 .bodyerror {
     background-image: url(mc-error-page.jpg);
+    background-attachment: fixed;
+   background-size: cover;
+   background-repeat: no-repeat;
 }
 .errortext1 {
     font-family: 'maicra';
