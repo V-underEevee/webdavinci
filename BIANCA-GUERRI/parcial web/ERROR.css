@@ -3,7 +3,7 @@
     src: url(./fonts/minecraft/Minecraft.ttf) format(truetype);
  }
 .bodyerror {
-    background-color: rgb(235, 230, 230);
+    background-image: url(mc-error-page.jpg);
 }
 .errortext1 {
     font-family: 'maicra';
