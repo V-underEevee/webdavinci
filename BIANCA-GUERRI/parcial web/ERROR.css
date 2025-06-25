@@ -1,3 +1,7 @@
+@font-face {
+    font-family: 'maicra';
+    src: url(./fonts/minecraft/Minecraft.ttf) format(truetype);
+ }
 .bodyerror {
     background-color: rgb(235, 230, 230);
 }
