@@ -216,6 +216,7 @@ width: 50%; ;
     border-right-color: rgb(53, 32, 38); 
 }
 .lista1 {
+    font-family: 'maicra';
     float: left;
     background-color: rgb(228, 152, 209);
     border-bottom-style: solid;
@@ -235,6 +236,7 @@ width: 50%; ;
     border-right-color: rgb(53, 32, 38);
 }
 .lista2 {
+    font-family: 'maicra';
     float: right;
     background-color: rgb(228, 152, 209);
     border-bottom-style: solid;
