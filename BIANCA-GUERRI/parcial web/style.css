@@ -74,7 +74,6 @@
     border-right-color: rgb(196, 140, 91);
 }
 .about, .cherry-log, .reparto,.contacto {
-    /* float: left; */
     
     font-family: 'maicra';
     padding-right: 10px;
