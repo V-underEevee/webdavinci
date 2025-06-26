@@ -17,6 +17,12 @@ text-align: center;
 .label {
 font-family: 'maicra';   
 }
+.body1 {
+   background-image:url(https://i.redd.it/getjr3xoyagb1.png);
+background-attachment: fixed;
+background-size: cover;
+background-repeat: no-repeat; 
+}
 .body2 {
 background-image:url(https://i.redd.it/getjr3xoyagb1.png);
 background-attachment: fixed;
