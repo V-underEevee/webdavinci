@@ -8,6 +8,14 @@
 <body>
     <form action="confirmacion.html">
 
+        <fieldset class="fieldset">
+            <legend class="legendlabel"><label>Datos Personales</label></legend>
+            <label>Nombre</label>
+            <input type="text" name="nombre" autofocus autocomplete="off">
+            <label>Apellido</label>
+            <input type="text" name="apellido">
+        </fieldset>
+
 
         <label for="mail">
             Ingrese su correo electronico:
@@ -26,14 +34,18 @@
 
 <input type="password" autofocus minlength="8" name="contraseña" id="contra" required title="Campo Obligatorio" tabindex="1">  
 
-<textarea name="mensaje" id="" cols="30" rows="3"> </textarea>
 
 <label for="edad">
 Ingrese su edad:
 <input type="number" min="6" max="130" name="edad" id="edad" required title="Campo Obligatorio" tabindex="2">
 </label>
 
+<label>Acepta los Terminos y Condiciones?
+    <input type="checkbox" name="acepta" id="">
+</label>
 
+
+<textarea name="mensaje" id="" cols="30" rows="3"> </textarea>
 
 
 
