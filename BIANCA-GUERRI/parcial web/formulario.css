@@ -57,3 +57,7 @@ background-repeat: no-repeat;
     height: 150px;
 
 }
+.volver  {
+    font-family: 'maicra';
+    display: flex;
+}
