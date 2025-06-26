@@ -37,7 +37,7 @@ background-repeat: no-repeat;
     
 }
 .cherry-log5 {
-
+    display: inline-block;
     background-color: rgb(228, 152, 209);
     border-bottom-style: solid;
     border-bottom-width: 30px;
