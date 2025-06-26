@@ -25,12 +25,11 @@ background-repeat: no-repeat;
 }
 .confirmacion {
     font-family: 'maicra';
-    display: flex;
+    
     
     
 }
 .cherry-log5 {
-    display: inline-block;
     background-color: rgb(228, 152, 209);
     border-bottom-style: solid;
     border-bottom-width: 30px;
@@ -55,9 +54,9 @@ background-repeat: no-repeat;
     width: 800px;
     box-sizing: border-box;
     height: 150px;
-
+    display: flex;
 }
 .volver  {
     font-family: 'maicra';
-    display: flex;
+
 }
