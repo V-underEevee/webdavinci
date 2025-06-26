@@ -14,7 +14,8 @@
            
         </label>
 
-         <input type="text" name="mail" placeholder="no olvides el @" value="" id="mail">
+         <input type="text" name="mail" placeholder="no olvides el @" value=""
+         id="mail" required title="Campo Obligatorio">
 
 
 
@@ -23,13 +24,13 @@
 
         </label>
 
-<input type="password" name="contraseña" id="contra">  
+<input type="password" autofocus minlength="8" name="contraseña" id="contra" required title="Campo Obligatorio" tabindex="1">  
 
-<textarea name="" id="" cols="30" rows="3"> </textarea>
+<textarea name="mensaje" id="" cols="30" rows="3"> </textarea>
 
 <label for="edad">
 Ingrese su edad:
-<input type="number" min="6" max="130" name="edad" id="edad">
+<input type="number" min="6" max="130" name="edad" id="edad" required title="Campo Obligatorio">
 </label>
 
 
@@ -49,7 +50,7 @@ Calificanos!
 
 <button type="submit">Enviar datos</button>
 
-<input type="color" name="color">
+
 
 
 
