@@ -35,7 +35,8 @@
 }
 .poster {
     size-adjust: 50%;
-    width: 100%;
+    width: 750px;
+    height: 450px;
     box-sizing: border-box;
     border-bottom-style: solid;
     border-bottom-width: 30px;
@@ -88,8 +89,7 @@
    background-color:rgb(228, 152, 209) ;
 
 }
-.about, .cherry-log, .reparto,.contacto {
-    
+.cherry-log {
     font-family: 'maicra';
     display: block;
     
@@ -97,10 +97,10 @@
 
     padding-right: 10px;
     padding-left: 10px;
-    margin: 10px 0;
-    width: 215px;
+    margin: 0px 0;
+    width: 220px;
     box-sizing: border-box;
-    height: 215px;
+    height: 150px;
     background-color: rgb(228, 152, 209);
     border-bottom-style: solid;
     border-bottom-width: 30px;
@@ -118,14 +118,38 @@
     border-right-width: 30px;
     border-right-color: rgb(53, 32, 38);
 }
+.about,.reparto,.contacto {
+    
+    font-family: 'maicra';
+    display: block;
+    
+
+
+    padding-right: 10px;
+    padding-left: 10px;
+    margin: 0px 0;
+    width: 220px;
+    box-sizing: border-box;
+    height: 150px;
+    background-color: rgb(228, 152, 209);
+    border-bottom-style: solid;
+    border-bottom-width: 30px;
+    border-bottom-color: rgb(53, 32, 38);
+
+    
+
+    border-left-style: solid;
+    border-left-width: 30px;
+    border-left-color: rgb(53, 32, 38);
+    
+    border-right-style: solid;
+    border-right-width: 30px;
+    border-right-color: rgb(53, 32, 38);
+}
 .title {
   font-family: 'maicra';
-    
-    padding: 50px;
-    background-color: rgb(196, 140, 91);
-    border-top-width: 20px;
-    border-top-style: solid;
-    border-top-color: rgb(118, 218, 114);
+    width: fit-content;
+   
 }
 
 .volver  {
@@ -300,7 +324,7 @@ width: 50%; ;
     top: 10vh;
     right: -1000px;
     transition: right .7s ease;
-    background: gray no-repeat url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/9a3166f6-c6ad-4d21-a2cd-0bd46a19bf7c/denbfri-0819f292-a11b-4da2-b8d2-7534d456b8ea.jpg/v1/fill/w_1000,h_659,q_75,strp/burgir_by_dothemarioin20second_denbfri-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NjU5IiwicGF0aCI6IlwvZlwvOWEzMTY2ZjYtYzZhZC00ZDIxLWEyY2QtMGJkNDZhMTliZjdjXC9kZW5iZnJpLTA4MTlmMjkyLWExMWItNGRhMi1iOGQyLTc1MzRkNDU2YjhlYS5qcGciLCJ3aWR0aCI6Ijw9MTAwMCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.IoC_q0KJQCLGKNSO7_PJfz40Bu0oZ2AgiNT23Pgg_WU);
+    background: rgba(0, 0, 0, 0) ;
     background-size: 100% 100%;
 }
 
@@ -313,6 +337,13 @@ width: 50%; ;
 #panelhamburguesa:target ~ header nav #abrir {
     display: none;
 }
-#panelhamburguesa:target #cerrar {
+#panelhamburguesa:target ~ header nav #cerrar {
     display: inline-block;
+}
+.header {
+    padding: 50px;
+    background-color: rgb(196, 140, 91);
+    border-top-width: 20px;
+    border-top-style: solid;
+    border-top-color: rgb(118, 218, 114);
 }
