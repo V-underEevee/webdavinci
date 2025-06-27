@@ -343,7 +343,6 @@ width: 50%; ;
     display: inline-block;
 }
 .header {
-    padding: 50px;
     background-color: rgb(196, 140, 91);
     border-top-width: 20px;
     border-top-style: solid;
