@@ -74,21 +74,7 @@
     border-right-width: 30px;
     border-right-color: rgb(196, 140, 91);
 }
-.boton {
-    text-decoration: none;
-    display: inline-block;
-    cursor: pointer;
-    padding: 2rem;
-    
-}
-.burger {
-   display: block; 
-   position: sticky;
-   top: 0;
-    right: -1000px;
-   background-color:rgb(228, 152, 209) ;
 
-}
 .cherry-log {
     font-family: 'maicra';
     display: block;
@@ -318,7 +304,21 @@ width: 50%; ;
     color: aliceblue;
     font-size: 25px;
 }
+.boton {
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    padding: 2rem;
     
+}
+.burger {
+   display: block; 
+   position: sticky;
+   top: 0;
+    right: -1000px;
+   background-color:rgb(228, 152, 209) ;
+
+}    
 #panelhamburguesa {
     height: 100vh;
     width: 400px;
@@ -330,7 +330,6 @@ width: 50%; ;
 
     background-size: 100% 100%;
 }
-
 #panelhamburguesa:target {
     right: 0;
 }
