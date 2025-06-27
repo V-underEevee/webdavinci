@@ -103,7 +103,6 @@
 .title {
     font-family: 'maicra';
     background: linear-gradient(to bottom, rgb(rgb(216, 143, 255)), rgb(244, 169, 232));
-    box-sizing: border-box;
 }
 .volver  {
     font-family: 'maicra';
