@@ -82,7 +82,7 @@
 }
 .burger {
    display: block; 
-   position: fixed;
+   position: sticky;
    top: 0;
    background-color:rgb(228, 152, 209) ;
    right: -1000px;
