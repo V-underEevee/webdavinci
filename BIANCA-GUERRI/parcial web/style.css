@@ -83,21 +83,13 @@
     display: inline-block;
     cursor: pointer;
     padding: 2rem;
-    left: 100%;
+    right: 100%;
     
 }
 .burger {
    display: block; 
 }
-#cerrar {
-    display: none;
-}
-#panelburger:target #abrir {
-    display: none;
-}
-#panelburger:target #cerrar {
-    display: inline-block;
-}
+
 .about, .cherry-log, .reparto,.contacto {
     
     font-family: 'maicra';
