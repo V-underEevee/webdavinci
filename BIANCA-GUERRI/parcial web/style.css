@@ -124,6 +124,10 @@
   font-family: 'maicra';
     width: fit-content;
     padding: 10px;
+    background-color: rgb(196, 140, 91);
+    border-top-width: 10px;
+    border-top-style: solid;
+    border-top-color: rgb(118, 218, 114);
 }
 .nav1 {
     position: fixed;
@@ -288,10 +292,10 @@ width: 50%; ;
     border-right-color: rgb(53, 32, 38);
 }
 
- main.mainflex{
-    /* display: flex;
-    justify-content: space-between; */
- }
+ /* main.mainflex{
+    display: flex;
+    justify-content: space-between;
+ } */
 .musica {
     font-family: 'maicra';
     display: flex;
