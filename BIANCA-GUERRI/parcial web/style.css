@@ -100,7 +100,11 @@
     border-right-width: 30px;
     border-right-color: rgb(53, 32, 38);
 }
-.title,.volver  {
+.title {
+    font-family: 'maicra';
+    background: linear-gradient(to bottom, rgb(rgb(216, 143, 255)), rgb(244, 169, 232));
+}
+.volver  {
     font-family: 'maicra';
 }
 .RE {
