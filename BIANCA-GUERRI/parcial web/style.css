@@ -83,12 +83,11 @@
     display: inline-block;
     cursor: pointer;
     padding: 2rem;
-    top: 0;
-    right: 0;
     
 }
 .burger {
    display: block; 
+   background-color:rgb(228, 152, 209) ;
 }
 
 .about, .cherry-log, .reparto,.contacto {
@@ -126,7 +125,7 @@
     width: fit-content;
     padding: 10px;
 }
-.nav {
+.nav1 {
     position: fixed;
     top: 0;
     right: 0;
