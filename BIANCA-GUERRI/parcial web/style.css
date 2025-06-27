@@ -293,6 +293,8 @@ width: 50%; ;
 .musica {
     font-family: 'maicra';
     display: flex;
+    color: aliceblue;
+    font-size: 25px;
 }
     
  
