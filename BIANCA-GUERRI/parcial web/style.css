@@ -35,7 +35,8 @@
 }
 .poster {
     size-adjust: 50%;
-    width: 100%;
+    width: 750px;
+    height: 450px;
     box-sizing: border-box;
     border-bottom-style: solid;
     border-bottom-width: 30px;
@@ -82,10 +83,13 @@
 }
 .burger {
    display: block; 
+   position: sticky;
+   top: 0;
+    right: -1000px;
    background-color:rgb(228, 152, 209) ;
+
 }
-.about, .cherry-log, .reparto,.contacto {
-    
+.cherry-log {
     font-family: 'maicra';
     display: block;
     
@@ -93,10 +97,10 @@
 
     padding-right: 10px;
     padding-left: 10px;
-    margin: 10px 0;
-    width: 215px;
+    margin: 0px 0;
+    width: 220px;
     box-sizing: border-box;
-    height: 215px;
+    height: 150px;
     background-color: rgb(228, 152, 209);
     border-bottom-style: solid;
     border-bottom-width: 30px;
@@ -114,22 +118,40 @@
     border-right-width: 30px;
     border-right-color: rgb(53, 32, 38);
 }
+.about,.reparto,.contacto {
+    
+    font-family: 'maicra';
+    display: block;
+    
+
+
+    padding-right: 10px;
+    padding-left: 10px;
+    margin: 0px 0;
+    width: 220px;
+    box-sizing: border-box;
+    height: 150px;
+    background-color: rgb(228, 152, 209);
+    border-bottom-style: solid;
+    border-bottom-width: 30px;
+    border-bottom-color: rgb(53, 32, 38);
+
+    
+
+    border-left-style: solid;
+    border-left-width: 30px;
+    border-left-color: rgb(53, 32, 38);
+    
+    border-right-style: solid;
+    border-right-width: 30px;
+    border-right-color: rgb(53, 32, 38);
+}
 .title {
   font-family: 'maicra';
-    
-    padding: 50px;
-    background-color: rgb(196, 140, 91);
-    border-top-width: 20px;
-    border-top-style: solid;
-    border-top-color: rgb(118, 218, 114);
+    width: fit-content;
+   
 }
-.nav1 {
-    position: fixed;
-    top: 0;
-    right: 0;
-    display: flex;
-    gap: 10px;
-}
+
 .volver  {
     font-family: 'maicra';
 }
@@ -297,5 +319,33 @@ width: 50%; ;
     font-size: 25px;
 }
     
- 
- 
+#panelhamburguesa {
+    height: 100vh;
+    width: 400px;
+    position: fixed;
+    top: 10vh;
+    right: -1000px;
+    transition: right .7s ease;
+    background: rgba(0, 0, 0, 0) ;
+    background-size: 100% 100%;
+}
+
+#panelhamburguesa:target {
+    right: 0;
+}
+#cerrar {
+    display: none;
+}
+#panelhamburguesa:target ~ header nav #abrir {
+    display: none;
+}
+#panelhamburguesa:target ~ header nav #cerrar {
+    display: inline-block;
+}
+.header {
+    padding: 50px;
+    background-color: rgb(196, 140, 91);
+    border-top-width: 20px;
+    border-top-style: solid;
+    border-top-color: rgb(118, 218, 114);
+}
