@@ -127,13 +127,7 @@
     border-top-style: solid;
     border-top-color: rgb(118, 218, 114);
 }
-.nav1 {
-    position: fixed;
-    top: 0;
-    right: 0;
-    display: flex;
-    gap: 10px;
-}
+
 .volver  {
     font-family: 'maicra';
 }
