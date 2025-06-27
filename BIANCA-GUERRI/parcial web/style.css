@@ -311,21 +311,21 @@ width: 50%; ;
     padding: 2rem;
     
 }
-.burger {
+/* .burger {
    display: block; 
    position: sticky;
    top: 0;
     right: -1000px;
    background-color:rgb(228, 152, 209) ;
 
-}    
+}     */
 #panelhamburguesa {
     height: 100vh;
     width: 400px;
     position: fixed;
     top: 10vh;
     right: -1000px;
-    transition: right .7s ease;
+    transition: right .8s easeInSine;
     background-color: rgba(0, 0, 0, 0.468) ;
 
     background-size: 100% 100%;
