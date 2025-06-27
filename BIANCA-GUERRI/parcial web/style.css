@@ -325,7 +325,7 @@ width: 50%; ;
     position: fixed;
     top: 10vh;
     right: -1000px;
-    transition: right 7s ease;
+    transition: right 7s ease-in;
  
 	
     background-color: rgba(0, 0, 0, 0.468) ;
