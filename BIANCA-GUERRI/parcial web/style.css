@@ -100,7 +100,7 @@
     margin: 0px 0;
     width: 220px;
     box-sizing: border-box;
-    height: 150px;
+    height: 180px;
     background-color: rgb(228, 152, 209);
     border-bottom-style: solid;
     border-bottom-width: 30px;
@@ -130,7 +130,7 @@
     margin: 0px 0;
     width: 220px;
     box-sizing: border-box;
-    height: 150px;
+    height: 160px;
     background-color: rgb(228, 152, 209);
     border-bottom-style: solid;
     border-bottom-width: 30px;
@@ -314,7 +314,7 @@ width: 50%; ;
  } */
 .musica {
     font-family: 'maicra';
-    display: flex;
+    display: inline-block;
     color: aliceblue;
     font-size: 25px;
 }
