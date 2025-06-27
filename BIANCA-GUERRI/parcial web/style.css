@@ -310,9 +310,9 @@ width: 50%; ;
 #cerrar {
     display: none;
 }
-#panelburger:target ~ header nav #abrir {
+#panelhamburguesa:target ~ header nav #abrir {
     display: none;
 }
-#panelburger:target #cerrar {
+#panelhamburguesa:target #cerrar {
     display: inline-block;
 }
