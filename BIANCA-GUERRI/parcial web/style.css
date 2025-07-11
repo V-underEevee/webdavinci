@@ -34,8 +34,12 @@
 }
 .poster2 {
     display: inline;
+    position: fixed;
+    right: 1%;
     width: 50%;
+    box-sizing: border-box;
     height: 50%;
+
     border-bottom-style: solid;
     border-bottom-width: 30px;
     border-bottom-color: rgb(196, 140, 91);
@@ -151,7 +155,7 @@ width: 50%; ;
 .cherry-log1 {
     font-family: 'maicra';
     size-adjust: 60%;
-    display: block;
+    display: inline-block;
     width: 40%;
     font-weight: normal;
     text-align: center;
