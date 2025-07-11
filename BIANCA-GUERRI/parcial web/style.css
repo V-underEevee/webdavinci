@@ -279,7 +279,7 @@ width: 50%; ;
     font-family: 'maicra';
     display: inline-block;
     color: aliceblue;
-    text-shadow: 10px;
+    text-shadow: 25%;
     font-size: 25px;
 }
 .boton {
