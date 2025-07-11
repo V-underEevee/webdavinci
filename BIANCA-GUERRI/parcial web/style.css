@@ -33,7 +33,7 @@
     
 }
 .poster2 {
-    display: inline;
+    display: inline-block;
     position: fixed;
     right: 1%;
     width: 50%;
