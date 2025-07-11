@@ -344,4 +344,8 @@ font-weight: normal;
     border-top-width: 20px;
     border-top-style: solid;
     border-top-color: rgb(118, 218, 114);
+}.nav1 {
+    position: fixed;
+    top: 0;
+    right: 0;
 }
