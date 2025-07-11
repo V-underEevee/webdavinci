@@ -34,7 +34,7 @@
 }
 .poster2 {
     display: inline-block;
-    width: 50%; ;
+    size-adjust: 50%;
     border-bottom-style: solid;
     border-bottom-width: 30px;
     border-bottom-color: rgb(196, 140, 91);
