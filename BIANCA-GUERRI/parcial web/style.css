@@ -60,7 +60,7 @@
 .cherry-log {
     font-family: 'maicra';
     display: block;
-    
+    font-weight: normal;
 
 
     padding-right: 10px;
@@ -122,6 +122,7 @@
 
 .volver  {
     font-family: 'maicra';
+    font-weight: normal;
 }
 .RE {
     display: block;
@@ -135,6 +136,7 @@
     size-adjust: 50%;
 float: right;
 width: 50%; ;
+font-weight: normal;
    background-color: rgb(228, 152, 209);
     border-bottom-style: solid;
     border-bottom-width: 30px;
@@ -180,6 +182,7 @@ width: 50%; ;
 }
 .cherry-log2 {
     font-family: 'maicra';
+    font-weight: normal;
     padding: 5px 20px;
     width: fit-content;
      background-color: rgb(228, 152, 209);
@@ -201,6 +204,7 @@ width: 50%; ;
 }
 .cherry-log3 {
     font-family: 'maicra';
+    font-weight: normal;
     float: left;
     background-color: rgb(228, 152, 209);
     border-bottom-style: solid;
@@ -221,6 +225,7 @@ width: 50%; ;
 } 
 .cherry-log4 {
     font-family: 'maicra';
+    font-weight: normal;
     float: right;
     background-color: rgb(228, 152, 209);
     border-bottom-style: solid;
@@ -241,6 +246,7 @@ width: 50%; ;
 }
 .lista1 {
     font-family: 'maicra';
+    font-weight: normal;
     float: left;
     background-color: rgb(228, 152, 209);
     border-bottom-style: solid;
@@ -261,6 +267,7 @@ width: 50%; ;
 }
 .lista2 {
     font-family: 'maicra';
+    font-weight: normal;
     float: right;
     background-color: rgb(228, 152, 209);
     border-bottom-style: solid;
@@ -286,6 +293,7 @@ width: 50%; ;
  } */
 .musica {
     font-family: 'maicra';
+    font-weight: normal;
     display: inline-block;
     color: aliceblue;
     text-shadow:2px 2px 2px #000000a1;
