@@ -340,6 +340,7 @@ font-weight: normal;
     display: inline-block;
 }
 .header {
+    position: fixed;
     background-color: rgb(196, 140, 91);
     border-top-width: 20px;
     border-top-style: solid;
