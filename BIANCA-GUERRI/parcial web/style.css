@@ -12,8 +12,8 @@
 
 .poster {
     size-adjust: 50%;
-    width: 750px;
-    height: 450px;
+    width: 50%;
+    height: 50%;
     box-sizing: border-box;
     border-bottom-style: solid;
     border-bottom-width: 30px;
