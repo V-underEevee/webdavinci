@@ -33,7 +33,7 @@
     
 }
 .poster2 {
-    float: right;
+    display: flex;
     width: 50%; ;
     border-bottom-style: solid;
     border-bottom-width: 30px;
