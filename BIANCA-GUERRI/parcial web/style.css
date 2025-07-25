@@ -9,34 +9,11 @@
    background-size: cover;
    background-repeat: no-repeat;
 }
-.body1{
-   background-image:url(https://i.redd.it/getjr3xoyagb1.png) ;
-   background-attachment: fixed;
-   background-size: cover;
-   background-repeat: no-repeat;
-}
-.body2 {
-    background-image:url(https://i.redd.it/getjr3xoyagb1.png) ;
-   background-attachment: fixed;
-   background-size: cover;
-   background-repeat: no-repeat;
-}
-.body3 {
-    background-image:url(https://i.redd.it/getjr3xoyagb1.png) ;
-   background-attachment: fixed;
-   background-size: cover;
-   background-repeat: no-repeat;
-}
-.body4 {
-    background-image:url(https://i.redd.it/getjr3xoyagb1.png) ;
-   background-attachment: fixed;
-   background-size: cover;
-   background-repeat: no-repeat;
-}
+
 .poster {
     size-adjust: 50%;
-    width: 750px;
-    height: 450px;
+    width: 75%;
+    height: 75%;
     box-sizing: border-box;
     border-bottom-style: solid;
     border-bottom-width: 30px;
@@ -56,8 +33,13 @@
     
 }
 .poster2 {
-    float: right;
-    width: 50%; ;
+    display: inline-block;
+    position: fixed;
+    right: 1%;
+    width: 50%;
+    box-sizing: border-box;
+    height: 50%;
+
     border-bottom-style: solid;
     border-bottom-width: 30px;
     border-bottom-color: rgb(196, 140, 91);
@@ -78,7 +60,7 @@
 .cherry-log {
     font-family: 'maicra';
     display: block;
-    
+    font-weight: normal;
 
 
     padding-right: 10px;
@@ -108,7 +90,7 @@
     
     font-family: 'maicra';
     display: block;
-    
+    font-weight: normal;
 
 
     padding-right: 10px;
@@ -140,6 +122,7 @@
 
 .volver  {
     font-family: 'maicra';
+    font-weight: normal;
 }
 .RE {
     display: block;
@@ -153,6 +136,7 @@
     size-adjust: 50%;
 float: right;
 width: 50%; ;
+font-weight: normal;
    background-color: rgb(228, 152, 209);
     border-bottom-style: solid;
     border-bottom-width: 30px;
@@ -173,8 +157,12 @@ width: 50%; ;
 .cherry-log1 {
     font-family: 'maicra';
     size-adjust: 60%;
-    float: left;
+    display: inline-block;
     width: 40%;
+    font-weight: normal;
+    text-align: center;
+    font-size: 1.5rem;
+
      background-color: rgb(228, 152, 209);
     border-bottom-style: solid;
     border-bottom-width: 30px;
@@ -194,6 +182,7 @@ width: 50%; ;
 }
 .cherry-log2 {
     font-family: 'maicra';
+    font-weight: normal;
     padding: 5px 20px;
     width: fit-content;
      background-color: rgb(228, 152, 209);
@@ -215,6 +204,7 @@ width: 50%; ;
 }
 .cherry-log3 {
     font-family: 'maicra';
+    font-weight: normal;
     float: left;
     background-color: rgb(228, 152, 209);
     border-bottom-style: solid;
@@ -235,6 +225,7 @@ width: 50%; ;
 } 
 .cherry-log4 {
     font-family: 'maicra';
+    font-weight: normal;
     float: right;
     background-color: rgb(228, 152, 209);
     border-bottom-style: solid;
@@ -255,6 +246,7 @@ width: 50%; ;
 }
 .lista1 {
     font-family: 'maicra';
+    font-weight: normal;
     float: left;
     background-color: rgb(228, 152, 209);
     border-bottom-style: solid;
@@ -275,6 +267,7 @@ width: 50%; ;
 }
 .lista2 {
     font-family: 'maicra';
+    font-weight: normal;
     float: right;
     background-color: rgb(228, 152, 209);
     border-bottom-style: solid;
@@ -300,8 +293,10 @@ width: 50%; ;
  } */
 .musica {
     font-family: 'maicra';
+    font-weight: normal;
     display: inline-block;
     color: aliceblue;
+    text-shadow:2px 2px 2px #000000a1;
     font-size: 25px;
 }
 .boton {
@@ -324,8 +319,8 @@ width: 50%; ;
     width: 400px;
     position: fixed;
     top: 10vh;
-    right: -1000px;
-    transition: right 7s ease;
+    right: -700px;
+    transition: right 3s ease;
  
 	
     background-color: rgba(0, 0, 0, 0.468) ;
@@ -345,8 +340,13 @@ width: 50%; ;
     display: inline-block;
 }
 .header {
+    
     background-color: rgb(196, 140, 91);
     border-top-width: 20px;
     border-top-style: solid;
     border-top-color: rgb(118, 218, 114);
+}.nav1 {
+    position: fixed;
+    top: 0;
+    right: 0;
 }
