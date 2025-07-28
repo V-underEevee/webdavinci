@@ -182,6 +182,7 @@ font-weight: normal;
 }
 .cherry-log2 {
     font-family: 'maicra';
+    display: flex;
     font-weight: normal;
     padding: 5px 20px;
     width: fit-content;
@@ -204,8 +205,10 @@ font-weight: normal;
 }
 .cherry-log3 {
     font-family: 'maicra';
+    display: flex;
     font-weight: normal;
-    float: left;
+    padding: 5px 20px;
+    width: fit-content;
     background-color: rgb(228, 152, 209);
     border-bottom-style: solid;
     border-bottom-width: 30px;
@@ -225,8 +228,10 @@ font-weight: normal;
 } 
 .cherry-log4 {
     font-family: 'maicra';
+    display: flex;
     font-weight: normal;
-    float: right;
+    padding: 5px 20px;
+    width: fit-content;
     background-color: rgb(228, 152, 209);
     border-bottom-style: solid;
     border-bottom-width: 30px;
