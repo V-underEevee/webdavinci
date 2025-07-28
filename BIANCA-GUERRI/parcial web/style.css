@@ -182,7 +182,7 @@ font-weight: normal;
 }
 .cherry-log2 {
     font-family: 'maicra';
-    display: flex;
+    
     font-weight: normal;
     padding: 5px 20px;
     width: fit-content;
@@ -205,7 +205,7 @@ font-weight: normal;
 }
 .cherry-log3 {
     font-family: 'maicra';
-    display: flex;
+    
     font-weight: normal;
     padding: 5px 20px;
     width: fit-content;
@@ -228,7 +228,7 @@ font-weight: normal;
 } 
 .cherry-log4 {
     font-family: 'maicra';
-    display: flex;
+    
     font-weight: normal;
     padding: 5px 20px;
     width: fit-content;
@@ -292,10 +292,10 @@ font-weight: normal;
     border-right-color: rgb(53, 32, 38);
 }
 
- /* main.mainflex{
+main.mainflex {
     display: flex;
     justify-content: space-between;
- } */
+ } 
 .musica {
     font-family: 'maicra';
     font-weight: normal;
