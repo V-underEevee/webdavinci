@@ -411,6 +411,13 @@ main.mainflex {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   text-align: center;
 }
+#panelhamburguesa nav:hover {
+  transform: scale(1.05);
+  box-shadow:
+    0 0 15px #cbf4f5,
+    0 0 30px #4b2a72;
+  cursor: pointer;
+}
 #panelhamburguesa .RE {
   display: inline-block;
   transform: scale(1);
