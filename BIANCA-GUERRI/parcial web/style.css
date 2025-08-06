@@ -403,7 +403,7 @@ main.mainflex {
 #panelhamburguesa nav {
   background-color: #e498d1; /* rosa cerezo */
   border: 30px solid #352026; /* borde oscuro */
-  border-radius: 12px;
+  
   margin: 0.5rem auto;
   padding: 0.5rem 1rem;
   max-width: 90%;
