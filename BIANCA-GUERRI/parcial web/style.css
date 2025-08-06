@@ -174,12 +174,14 @@ font-weight: normal;
     border-right-width: 30px;
     border-right-color: rgb(53, 32, 38);
 }
-.cherry-log2 {
+.cherry-log2, .cherry-log3, .cherry-log4 {
     font-family: 'maicra';
     
     font-weight: normal;
     padding: 5px 20px;
     width: fit-content;
+
+
      background-color: rgb(228, 152, 209);
     border-bottom-style: solid;
     border-bottom-width: 30px;
@@ -196,52 +198,6 @@ font-weight: normal;
     border-right-style: solid;
     border-right-width: 30px;
     border-right-color: rgb(53, 32, 38);
-}
-.cherry-log3 {
-    font-family: 'maicra';
-    
-    font-weight: normal;
-    padding: 5px 20px;
-    width: fit-content;
-    background-color: rgb(228, 152, 209);
-    border-bottom-style: solid;
-    border-bottom-width: 30px;
-    border-bottom-color: rgb(53, 32, 38);
-
-    border-top-style: solid;
-    border-top-width: 30px;
-    border-top-color: rgb(53, 32, 38);
-
-    border-left-style: solid;
-    border-left-width: 30px;
-    border-left-color: rgb(53, 32, 38);
-    
-    border-right-style: solid;
-    border-right-width: 30px;
-    border-right-color: rgb(53, 32, 38); 
-} 
-.cherry-log4 {
-    font-family: 'maicra';
-    
-    font-weight: normal;
-    padding: 5px 20px;
-    width: fit-content;
-    background-color: rgb(228, 152, 209);
-    border-bottom-style: solid;
-    border-bottom-width: 30px;
-    border-bottom-color: rgb(53, 32, 38);
-
-    border-top-style: solid;
-    border-top-width: 30px;
-    border-top-color: rgb(53, 32, 38);
-
-    border-left-style: solid;
-    border-left-width: 30px;
-    border-left-color: rgb(53, 32, 38);
-    
-    border-right-style: solid;
-    border-right-width: 30px;
-    border-right-color: rgb(53, 32, 38); 
 }
 .lista1 {
     font-family: 'maicra';
