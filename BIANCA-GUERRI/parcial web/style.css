@@ -321,7 +321,7 @@ main.mainflex {
     justify-content: center;     
     gap: 1rem;     
     padding: 1rem;     
-    background-color: #7de3e3;     
+    background-color:#A1F0FF;     
     border-radius: 10px;     
     margin-top: 2rem;
     max-width: 600px;
@@ -340,7 +340,8 @@ main.mainflex {
     
 
     border-bottom: 4px solid #18152b;  /* obsidiana oscuro */
-    box-shadow: 0 0 10px #A1F0FF;       /* brillo azul beacon */
+    box-shadow: 0 0 10px #7de3e3
+    ;       /* brillo azul beacon */
     margin-bottom: 1rem;
     border-bottom: 12px solid #241a36;
     box-shadow:
