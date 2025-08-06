@@ -264,8 +264,7 @@ main.mainflex {
     max-width: 400px;
     padding: 1rem;
     text-align: center;
-    background-color: #18152b;
-    color: aliceblue;
+    
     border: 2px solid #4b2a72;
     border-radius: 12px;
     box-shadow: 0 0 15px #7de3e3;
