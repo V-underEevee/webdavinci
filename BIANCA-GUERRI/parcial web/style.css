@@ -212,20 +212,6 @@ font-weight: normal;
   box-shadow: 0 0 20px #e498d1cc;
   cursor: pointer;
 }
-@media (min-width: 768px) {
-  .main-links {
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: stretch;
-  }
-
-  .cherry-log2,
-  .cherry-log3,
-  .cherry-log4 {
-    width: 250px;
-  }
-}
 
 .lista1 {
     font-family: 'maicra';
