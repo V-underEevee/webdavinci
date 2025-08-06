@@ -334,10 +334,15 @@ main.mainflex {
     align-items: center;     
     width: 100%;     
     max-width: 250px;     
-    background-color: white;     
+    background-color: rgba(126, 217, 230, 0.2);     
     padding: 1rem;     
     border-radius: 8px;     
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+
+
+    border-bottom: 4px solid #3D2A54;
+    box-shadow: 0 0 8px #7ED9E6; /* brillo del beacon */
+    margin-bottom: 1rem;
 }
 
 .track h4 {
@@ -348,6 +353,9 @@ main.mainflex {
     color: aliceblue;
     text-shadow: 2px 2px 2px #000000a1;
     text-align: center;
+
+
+
 }
 
 .track audio {
