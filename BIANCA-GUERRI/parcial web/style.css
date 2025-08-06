@@ -365,7 +365,7 @@ main.mainflex {
     position: fixed;
     top: 10vh;
     right: -700px;
-    transition: right 3s ease;
+    transition: right 1s ease;
     z-index: 9999;
 	
     background-color: rgba(0, 0, 0, 0.468) ;
