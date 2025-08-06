@@ -411,3 +411,12 @@ main.mainflex {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   text-align: center;
 }
+#panelhamburguesa .RE {
+  display: inline-block;
+  transform: scale(1);
+  transition: transform 0.3s ease;
+}
+
+#panelhamburguesa .RE:hover {
+  transform: scale(1.05);
+}
