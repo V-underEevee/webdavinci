@@ -314,10 +314,19 @@ main.mainflex {
 .musica {
     font-family: 'maicra';
     font-weight: normal;
-    display: inline-block;
     color: aliceblue;
     text-shadow:2px 2px 2px #000000a1;
     font-size: 25px;
+
+
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem;
+    background-color: #f5f5f5; 
+    border-radius: 10px;
+    margin-top: 2rem;
 }
 .boton {
     text-decoration: none;
