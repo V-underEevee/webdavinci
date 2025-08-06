@@ -112,21 +112,9 @@ float: right;
 width: 50%; ;
 font-weight: normal;
    background-color: rgb(228, 152, 209);
-    border-bottom-style: solid;
-    border-bottom-width: 30px;
-    border-bottom-color: rgb(53, 32, 38);
-
-    border-top-style: solid;
-    border-top-width: 30px;
-    border-top-color: rgb(53, 32, 38);
-
-    border-left-style: solid;
-    border-left-width: 30px;
-    border-left-color: rgb(53, 32, 38);
-    
-    border-right-style: solid;
-    border-right-width: 30px;
-    border-right-color: rgb(53, 32, 38);
+    border-style: solid;
+    border-width: 30px;
+    border-color: rgb(53, 32, 38);
 }
 .cherry-log1 {
     font-family: 'maicra';
@@ -138,21 +126,9 @@ font-weight: normal;
     font-size: 1.5rem;
 
      background-color: rgb(228, 152, 209);
-    border-bottom-style: solid;
-    border-bottom-width: 30px;
-    border-bottom-color: rgb(53, 32, 38);
-
-    border-top-style: solid;
-    border-top-width: 30px;
-    border-top-color: rgb(53, 32, 38);
-
-    border-left-style: solid;
-    border-left-width: 30px;
-    border-left-color: rgb(53, 32, 38);
-    
-    border-right-style: solid;
-    border-right-width: 30px;
-    border-right-color: rgb(53, 32, 38);
+    border-style: solid;
+    border-width: 30px;
+    border-color: rgb(53, 32, 38);
 }
 .cherry-log2, .cherry-log3, .cherry-log4 {
     font-family: 'maicra';
@@ -162,21 +138,9 @@ font-weight: normal;
     width: fit-content;
 
      background-color: rgb(228, 152, 209);
-    border-bottom-style: solid;
-    border-bottom-width: 30px;
-    border-bottom-color: rgb(53, 32, 38);
-
-    border-top-style: solid;
-    border-top-width: 30px;
-    border-top-color: rgb(53, 32, 38);
-
-    border-left-style: solid;
-    border-left-width: 30px;
-    border-left-color: rgb(53, 32, 38);
-    
-    border-right-style: solid;
-    border-right-width: 30px;
-    border-right-color: rgb(53, 32, 38);
+    border-style: solid;
+    border-width: 30px;
+    border-color: rgb(53, 32, 38);
 
     padding: 1rem 2rem;
     width: 90%;
@@ -198,42 +162,18 @@ font-weight: normal;
     font-weight: normal;
     float: left;
     background-color: rgb(228, 152, 209);
-    border-bottom-style: solid;
-    border-bottom-width: 30px;
-    border-bottom-color: rgb(53, 32, 38);
-
-    border-top-style: solid;
-    border-top-width: 30px;
-    border-top-color: rgb(53, 32, 38);
-
-    border-left-style: solid;
-    border-left-width: 30px;
-    border-left-color: rgb(53, 32, 38);
-    
-    border-right-style: solid;
-    border-right-width: 30px;
-    border-right-color: rgb(53, 32, 38);
+    border-style: solid;
+    border-width: 30px;
+    border-color: rgb(53, 32, 38);
 }
 .lista2 {
     font-family: 'maicra';
     font-weight: normal;
     float: right;
     background-color: rgb(228, 152, 209);
-    border-bottom-style: solid;
-    border-bottom-width: 30px;
-    border-bottom-color: rgb(53, 32, 38);
-
-    border-top-style: solid;
-    border-top-width: 30px;
-    border-top-color: rgb(53, 32, 38);
-
-    border-left-style: solid;
-    border-left-width: 30px;
-    border-left-color: rgb(53, 32, 38);
-    
-    border-right-style: solid;
-    border-right-width: 30px;
-    border-right-color: rgb(53, 32, 38);
+    border-style: solid;
+    border-width: 30px;
+    border-color: rgb(53, 32, 38);
 }
 
 main.mainflex {
