@@ -11,10 +11,16 @@
 }
 
 .poster {
-    size-adjust: 50%;
-    width: 75%;
-    height: 75%;
+    
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
     box-sizing: border-box;
+
+
+
     border-bottom-style: solid;
     border-bottom-width: 30px;
     border-bottom-color: rgb(196, 140, 91);
@@ -31,6 +37,15 @@
     border-right-width: 30px;
     border-right-color: rgb(196, 140, 91);
     
+}
+@media (max-width: 600px) {
+    .poster {
+        border-width: 15px;
+        border-top-width: 15px;
+        border-bottom-width: 15px;
+        border-left-width: 15px;
+        border-right-width: 15px;
+    }
 }
 .poster2 {
     display: inline-block;
