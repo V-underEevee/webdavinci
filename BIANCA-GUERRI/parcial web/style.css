@@ -400,3 +400,16 @@ main.mainflex {
     top: 0;
     right: 0;
 }
+#panelhamburguesa nav {
+  background-color: #e498d1; /* rosa cerezo */
+  border: 3px solid #352026; /* borde oscuro */
+  border-radius: 12px;
+  margin: 0.5rem auto;
+  padding: 0.5rem 1rem;
+  max-width: 90%;
+  box-shadow:
+    0 0 8px 2px #9460d1cc,
+    inset 0 0 5px 1px #7de3e3cc;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: center;
+}
