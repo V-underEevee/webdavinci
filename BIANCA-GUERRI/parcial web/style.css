@@ -266,7 +266,6 @@ main.mainflex {
     text-align: center;
     
     border: 30px solid #352026;
-    border-radius: 12px;
     box-shadow: 0 0 15px #7de3e3;
     animation: brilloMinecraft 3s infinite;
     transition: transform 0.3s ease;
