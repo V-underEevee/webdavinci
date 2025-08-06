@@ -40,9 +40,10 @@ background-repeat: no-repeat;
 }
 .confirmacion {
     font-family: 'maicra';
-    
-    
-    
+    font-size: 2rem;
+    font-weight: bold;
+    width: auto;
+    height: auto;
 }
 .cherry-log5 {
     background-color: rgb(228, 152, 209);
@@ -66,9 +67,10 @@ background-repeat: no-repeat;
     padding-right: 10px;
     padding-left: 10px;
     margin: 15px 0;
-    width: 800px;
+    
     box-sizing: border-box;
-    height: 150px;
+    height: auto;
+    width: auto;
     display: flex;
 }
 .volver  {
