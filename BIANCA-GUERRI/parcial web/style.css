@@ -292,6 +292,37 @@ main.mainflex {
     align-items: center;
 
  } 
+ .main-links {
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+    gap: 1rem;
+    padding: 2rem;
+    text-align: center;
+}
+
+.main-links > div {
+    background-color: #4b2a72;
+    padding: 1rem;
+    border-radius: 10px;
+    color: white;
+    max-width: 400px;
+    width: 100%;
+    box-shadow: 0 4px 10px #00000033;
+    transition: transform 0.3s ease;
+}
+
+.main-links > div:hover {
+    transform: scale(1.05);
+}
+
+.main-links a {
+    color: aliceblue;
+    font-family: 'maicra';
+    font-size: 20px;
+    text-decoration: none;
+}
+
 .musica {
     display: flex;     
     flex-wrap: wrap;    
