@@ -205,7 +205,27 @@ font-weight: normal;
     text-align: center;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+.cherry-log2:hover,
+.cherry-log3:hover,
+.cherry-log4:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px #e498d1cc;
+  cursor: pointer;
+}
+@media (min-width: 768px) {
+  .main-links {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+  }
 
+  .cherry-log2,
+  .cherry-log3,
+  .cherry-log4 {
+    width: 250px;
+  }
+}
 
 .lista1 {
     font-family: 'maicra';
