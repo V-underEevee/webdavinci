@@ -404,8 +404,6 @@ main.mainflex {
   background-color: #e498d1; /* rosa cerezo */
   border: 30px solid #352026; /* borde oscuro */
   
-  margin: 0.5rem auto;
-  padding: 0.5rem 1rem;
   max-width: 90%;
   box-shadow:
     0 0 8px 2px #9460d1cc,
